@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../fondo.jpg);
+    background-position: all;
+}
+header {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.867);
+    color: white;
+    margin: 2px;
+    padding: 15px;
+}
+h1{
+    font-family: Algerian;
+    font-size: 40px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    
+    background-color: beige;
+    padding: 5px;
+    margin: 0px;
+    height: 34px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    margin:0;
+    padding: 9px;
+}
+nav ul li a:hover{
+    background-color: #fabb32;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: all 300ms;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.navegacion li a{
+    display: block;
+}
+
+
+.navegacion > li {
+    float: left;
+}
+
+
+.navegacion li ul{
+    display: none;
+    position: absolute;
+    min-width: 115px;
+}
+
+.navegacion li:hover > ul {
+    display: block;
+    
+}
+.navegacion li ul li {
+    position: relative;
+}
+.navegacion li ul li ul {
+    right: -115px;
+    top: 0px;
+}
+.submenu {
+    margin: 0;
+    padding: 10px;
+    background-color: beige;
+}
+
+
+#inicio_sesion{
+    background-color: rgba(49, 32, 0, 0.867);
+    float: right;
+    margin: 10px;
+    padding: 9px;
+    font-family: Baskerville Old Face;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.589);
+    border-radius: 10px;
+}
+#inicio_sesion:hover{
+    background-color: rgba(0, 58, 112, 0.867);
+    color: orange;
+    animation: infinite;
+    transition: all 300ms;
+}
+
+aside {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+
+    float: right;
+    height: auto;
+    width: auto;
+    margin: 01px;
+    padding: 5px;
+    position: relative;
+    
+}
+section {
+    float:unset;
+}
+footer {
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.867);
+    color: white;
+    margin: 7px;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tabla{
+    background-color: rgba(0, 0, 0, 0);
+}
+.aumento:hover {
+    transform: scale(1.05);
+    transition: all 300ms;
+} 
+
+#title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: rgba(100,100,100, 1) 5px 5px 1px;
+
+}
+#definicion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: rgba(100,100,100, 1) 2px 2px 1px;
+    font-size: 25px;
+    padding: 10px;
+
+}
+.comprar{
+    border: 1px solid black;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 4px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.comprar:hover{
+    background-color: red;
+    border: 0px solid black;
+    transition: 300ms;
+    color: rgba(0, 0, 0, 0.637);
+}
+#tituloprin {
+    background-image: url(../img1.jpg);
+    background-repeat: no-repeat;
+    position: unset;
+    background-size: 78%;
+    padding: 15px;
+}
+#carrito {
+    border: 2px solid white;
+    border-radius: 2px;
+}

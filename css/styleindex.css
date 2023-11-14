@@ -1,0 +1,15 @@
+.material {
+    font-size: 17px;
+}
+.material:hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+}
+
+.todo:hover {
+    transform: scale(1.05);
+    transition: all 300ms;
+}
+.todo{
+    font-size: 30px;
+}
